@@ -46,3 +46,5 @@ git tag -d nombre-del-tag: Borra un tag en el repositorio local
 git push origin :refs/tags/nombre-del-tag: Borra un tag en el repositorio remoto
 
 otro vamos a let me writing other things in this pages in white
+ahhh yes i cant writin more letters in this code.
+
