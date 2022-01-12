@@ -1,0 +1,48 @@
+token    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
+
+Esc + Shift + Z + Z didn't work for me. So I used the commands below: Ctrl + X to exit, then Y to accept the changes and Enter to finish.
+COMANDOS GIT
+$ git init / / initialize the repository
+$ git add filename.extension // Add the file to the repository
+$ git commit -m "Message" // Add the changes for the repository
+$ git add .// Add the changes to the folder in the one we are in add everything
+$ git status // display changes
+$ git log file_name.extension // history of changes with details
+$ git push // Send to another remote repository what we are doing
+$ git pull // bring remote repository
+$ ls // List of folders where I am, that is, dir in windows
+$ pwd // Current location
+$ mkdir // make directory new folder
+$ touch file.extension // Create empty file
+** $ cat file.extension // ** Shows the contents of the file
+$ history // History of commands used during that session
+$ rm file.extension // Delete file
+$ command --help // Help about the command
+** $ checkout // ** Bring changes made
+$ git rm --cached file.extension // It is used to return the file that is in ram when we write git add returns it to natural state while it is in staging
+$ git config --list // Show the git configuration list
+$ git config --list --show-origin //Paths to git configuration
+$ git log file.extension // Shows the history of the file
+I hope it will serve my notes to someone (and if there are errors, comment me and if something else is missing) my mother! I thought I was not going to finish hahahaha and hurry that is difficult for me but I do not give up #NuncaParesdeAprender ❤️
+GENERADOR DE LLAVES DE SEGURIDAD
+Generar una nueva llave SSH: (Cualquier sistema operativo)
+
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+Comprobar proceso y agregarlo (Windows)
+
+eval $(ssh-agent - s)
+ssh-add ~/.ssh/id_rsa
+
+GITS TAG
+git log --all: Muestra toda la historia de commits de nuestro proyecto
+git log --all --graph: Además de mostrar la historia de commits muestra gráficamente las ramas
+git log --all --graph --decorate --oneline: Muestra la historia de commits y ramas de manera compacta
+git tag -a nombre-del-tag -m “Mensaje del tag” id-del-commit: Creamos un tag y asignarlo a un commit
+git tag: Muestra la lista de todos los tag
+git show-ref --tags: Muestra la lista de tags y a que commits están asignados
+git push origin --tags: Envía un tag a un repositorio remoto
+git tag -d nombre-del-tag: Borra un tag en el repositorio local
+git push origin :refs/tags/nombre-del-tag: Borra un tag en el repositorio remoto
+
+otro
