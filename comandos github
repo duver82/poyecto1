@@ -45,4 +45,4 @@ git push origin --tags: Envía un tag a un repositorio remoto
 git tag -d nombre-del-tag: Borra un tag en el repositorio local
 git push origin :refs/tags/nombre-del-tag: Borra un tag en el repositorio remoto
 
-otro
+otro vamos a let me writing other things in this pages in white
